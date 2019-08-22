@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+    <img src="12.jpg" style="width: 80px;height: 80px;position: absolute;z-index: 1;left: 8px;top: 5px;">
+    <ul>
+    <i class="fa fa-location-arrow" style="font-size: 20px;color: white;position: absolute;top: 20px;right: 250px;"> Belihuloya</i>
+    <i class="fa fa-phone"style="font-size: 20px;color: white; position: absolute;top: 20px; right: 50px;"> 0712630293</i>
+  </ul>
+
+      <div class="menu">
+      <div class="label">Follow Me</div>
+      <div class="spacer"></div>
+      <div class="item"><span>Facebook</span></div>
+      <div class="item"><span>Twitter</span></div>
+      <div class="item"><span>LinkedIn</span></div>
+      <div class="item"><span>Google-Plus</span></div>
+      <div class="item"><span>Instagram</span></div>
+</div>
+  </header>
+    <div class="navbar">
+  <div class="items">
+    <div class="fa fa-home"></div>
+    <div class="label"><a href="Home.php">Home</a></div>
+  </div>
+  <div class="items">
+    <div class="fa fa-users"></div>
+    <div class="label">About Us</div>
+  </div>
+  <div class="items">
+    <div class="fa fa-check-square-o"></div>
+    <div class="label"><a href="registration.php">Register</div>
+  </div>
+  <div class="items">
+    <div class="fa fa-envelope"></div>
+    <div class="label"><a href="contact us.php">Contact Us</a></div>
+  </div>
+  <div class="items">
+    <div class="fa fa-power-off"></div>
+    <div class="label"><a href="login.php">Login</a></div>
+  </div></div>
+
+  <div class="background"><img src="26.jpg" style="background-repeat: no-repeat;background-size: cover;"><div class="heading"><p style="color: red; font-size: 50px;z-index: 1;text-align: center;">Contact Us</p></div>
+</div>
+
+<div class="background1">
+  <div class="container">
+    <div class="screen">
+      <div class="screen-header">
+        <div class="screen-header-left">
+          <div class="screen-header-button close"></div>
+          <div class="screen-header-button maximize"></div>
+          <div class="screen-header-button minimize"></div>
+        </div>
+        <div class="screen-header-right">
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+        </div>
+      </div>
+      <div class="screen-body">
+        <div class="screen-body-item left">
+          <div class="app-title">
+            <span>CONTACT</span>
+            <span>US</span>
+          </div>
+          <div class="app-contact">CONTACT INFO : 071 263 029 3</div>
+        </div>
+        <div class="screen-body-item">
+          <div class="app-form">
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="NAME" required="">
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="EMAIL" required="">
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="CONTACT NO" required="">
+            </div>
+            <div class="app-form-group message">
+              <input class="app-form-control" placeholder="MESSAGE" required="">
+            </div>
+            <div class="app-form-group buttons">
+              <button class="app-form-button">CANCEL</button>
+              <button class="app-form-button">SEND</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+</div>
+<div class="get-info">
+	<div class="in1"><div class="h"><h1>Contact Info</h1></div><br>
+		<br>
+		<dl>
+			<i class="fa fa-map-marker"></i>
+		<dd>149/A,Liss Arcade,<br> 5th main,6th sector,HSR Layout,<br> Belihuloya, Sri Lanka.</dd>
+	</dl>
+		</div>
+	<div class="in2">
+		<dl>
+		<i class="fa fa-phone"></i>
+		<dd class="d1">Fixed Line : 08001183733</dd>
+		<dd class="d2">Moblie : 07123456789</dd>
+	  </dl>
+</div>
+	<div class="in3">
+		<dl>
+			<i class="fa fa-envelope"></i>
+			<dd class="d3">info@Oreal.com</dd>
+		</dl>
+	</div>
+</div>
+
+<div class="footer">
+  <div id="button"></div>
+<div id="container">
+<div id="cont">
+<div class="footer_center">
+		<ul class="footer-link">
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" ></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		</ul> 
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>

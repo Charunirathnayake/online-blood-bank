@@ -1,0 +1,40 @@
+<?php 
+	require'Regis1.php';
+ ?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	
+<div class="wrapper">
+	<div><img class="image" src="15.png"></div>
+	<div class="container">
+		<h1><b>Welcome</b></h1>
+		<form class="form" action="home.html">
+			<input type="text" placeholder="Username" required>
+			<input type="password" placeholder="Password" required>
+			<button type="submit" id="login-button"><a href="userInterface.php">Login</button>
+		</form>
+	</div>
+	
+	<ul class="bg-bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+</body>
+</html>
